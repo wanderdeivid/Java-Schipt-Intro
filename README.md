@@ -1,1 +1,1 @@
-# Java-Schipt-Intro
+# Introdução ao JavaScript
