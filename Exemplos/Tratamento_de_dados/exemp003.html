@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1</title>
+    <style> 
+    /* Trecho em CSS */
+        body{
+            background-color: aqua;
+            color: white;
+            font: italic 18pt Arial;
+            text-align: center;
+        }
+        h1{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, World!!</h1>
+    <p>Ritual.</p>
+    <script> 
+    /* trecho de JS. */
+    // o window.prompt recebe string e o '+' concatena
+       var n1 = Number(window.prompt('Digite um número:')); 
+       var n2 = Number(window.prompt('Digite outro número:'));
+       var s = n1 + n2;
+       window.alert(`A soma entre ${n1} e ${n2} é ${s}`);// Usar `` no lugar de '' nos faz não precisar do + e apenas usar o ${} para concatenar.
+        // string + string = concatena
+        // number + number = soma
+        /* Para transformar de string para number temos que usar Number.parseInt(n) ou Number.parseFSloat(n) ou Number. Para converter de number para string usamos String(n) ou n.toString()*/
+    </script>
+</body>
+</html>
