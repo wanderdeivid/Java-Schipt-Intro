@@ -28,7 +28,7 @@ button{
     display: flex;
 }
 
-#currentNumber{
+#atual{
     display: flex;
     align-items: center;
     margin: 0 20px;

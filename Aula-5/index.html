@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-be">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <scripts src="assets/js/scripts.js"></scripts>
     <link rel="stylesheet" href="assets/css/styles.css">   
     <!-- O rel nos diz qual é o relacionamento do link que estamos fazendo com o html, no caso temos um folha de estilo(stylesheet) e o href é o caminho para o arquivo que servira para esse proposito. -->
     <title>Contador</title>
@@ -14,9 +13,10 @@
     <p>Clique nos botões para alterar o valor.</p>
     <div id="counter">
         <!-- Toda a vez que o usuario clicar no botão(vai chamar a função increment ou decrement), vai adicionar ou subtrair uma unidade -->
-        <button name="subtrair" onclick= "decrement()"> - </button>
-        <span id="currentNumber">0</span>
-        <button name="adicionar" onclick="increment()"> + </button>
+        <button name = "subtrair" onclick = "decrement()"> - </button>
+        <span id = "atual">0</span>
+        <button name = "adicionar" onclick = "increment()"> + </button>
     </div>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
