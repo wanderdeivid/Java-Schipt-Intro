@@ -1,0 +1,48 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+    font: normal 18pt Arial;
+    color: white;
+}
+
+footer{
+    font: italic 12pt Arial;
+}
+
+section{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(226, 213, 213);
+    color: black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.418);
+}
+
+header{
+    font: normal 12pt Arial;
+    text-align: center;
+}
+select{
+    width: 310px;
+    height: 310px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+input {
+    caret-color: blueviolet;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+div {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+::selection {
+    background-color: cornflowerblue;
+    color: darkcyan;
+}

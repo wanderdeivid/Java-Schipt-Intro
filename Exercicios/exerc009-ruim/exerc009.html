@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alunos Aprovados</title>
+    <link rel="stylesheet" href="css/exerc009.css">
+</head>
+<body>
+    <header>
+        Alunos Aprovados
+    </header>
+    <section>
+        <div>
+            <p>Insira os dados do aluno:</p>
+            <p> <input type="text" name="text" id="nomealuno" placeholder="Nome do aluno"> <input type="number" name="num" id="nota" placeholder="Nota" ><input type="button" value="Adicionar" onclick="adicionar()"></p>
+        </div>
+        <div>
+            <select name="Lista de alunos" id="listaAlunos" size="5">
+                <option value="alunos">Lista dos Alunos:</option>
+            </select>
+            <p><input type="button" value="Verificar" onclick="verificar()"></p>
+        </div>
+        <div id="res">
+            <p><select name="Alunos Aprovados" id="listaAprovados" size="5">
+                <option value="apr">Alunos Aprovados:</option>
+            </select><select name="Alunos Reprovados" id="listaReprovados" size="5"> 
+                <option value="rep">Alunos Reprovados</option>
+            </select></p> 
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; Wander D C Santos</p>
+    </footer>
+    <script src="js/exerc009.js"></script>
+</body>
+</html>
