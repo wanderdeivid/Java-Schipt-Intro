@@ -1,0 +1,107 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos Base*/
+
+body{
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .logo{
+    margin-left: 7px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+
+}
+
+/*Filme Principal*/
+
+.filme-principal{
+    font-size: 15px;
+    background: linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%), url('/img/capa-the-witcher2.jpg');
+
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    width: 70%;
+}
+.filme-principal .container{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.titulo{
+    margin-top: 5%;
+    font-size: 50px;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border:none;
+    color:white;
+    
+    margin-right: 15px;
+    font-size: 12px;
+    padding: 15px 30px;
+    
+    cursor: pointer;
+    transition: .5s ease all;
+
+}
+
+.botao:hover{ 
+    background-color: rgb(219, 215, 215);
+    color: black;
+    border: black ;
+}
+
+.botao i{
+    margin-right: 7px;
+    
+}
+
+.box-filme{
+    height: 80%;
+    width: 80%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
